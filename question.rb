@@ -15,7 +15,7 @@ module MathGame
 
       if user_answer == answer
         puts "Well done!"
-      else puts "Com'on, my grandma counts better than that! You loose one life for that!"
+      else puts "Com'on, you can count better than that! You loose one life for that!"
         player.score = player.score - 1
       end
     end
